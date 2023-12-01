@@ -1,0 +1,38 @@
+#tablero,.tablero-info{
+    max-width: 500px;
+}
+#tablero{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
+#empezar,.tablero-info{
+    font-size: 25px;
+}
+#game-over{
+    display: none;
+}
+.tablero-info{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+#empezar{
+    background-color: #f35a69;
+    border: none;
+    color: #fff;
+}
+.puntaje{
+    display: inline-flex;
+}
+.cuadrado{
+    aspect-ratio: 1;
+}
+.cuadrado-vacio{
+    background-color: #456990;
+}
+.cuadrado-serpiente{
+    background-color: yellowgreen;
+}
+.comida-serpiente{
+    background-color: #f35a69;
+}
